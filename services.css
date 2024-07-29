@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* <!-- ---------------------------------------nav---------------------------------- - */
+.navm{
+    background: #152228;
+    display: flex;
+    padding: 5px 10%;
+    align-items: center;
+}
+.navm .logom{
+    margin-left: 100px;
+}
+.navm .logom img{
+    width: 200px;
+}
+.navm .linksm{
+    margin-left: 100px;
+}
+.navm .linksm a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.navm .linksm a:hover{
+    color: #3da060;
+}
+
+
+
+/* <!-- ---------------------------------------SERVICES--------------------------- --> */
+
+.services{
+    display: flex;
+    background: black;
+    padding: 20px 15%;
+    align-items: center;
+    color: white;
+}
+.services .mag-left{
+    margin-right: 50px;
+}
+.services .mag-left h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.services .mag-left p{
+    font-size: 22px;
+    width: 600px;
+    margin-bottom: 40px;
+}
+.services .mag-left button{
+    border: 0;
+    outline: 0;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.services .mag-right img{
+    width: 100%;
+}
+
+.money{
+    padding: 40px 15%;
+}
+.money h1{
+    font-size: 40px;
+}
+.money img{
+    width: 100%;
+}
+.money  .maggie{
+    display: flex;
+}
+.money  .maggie .maggie-left{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.money  .maggie .maggie-left h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.money  .maggie .maggie-left p{
+    font-size: 20px;
+    width: 400px;
+}
+/* <!-- ---------------------------------------footer---------------------------------- --> */
+.footerm{
+    background: #152228;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.footerm .onem{
+    margin-left: 40px;
+}
+.footerm .onem img{
+    width: 100px;
+}
+.footerm .onem  a{
+    text-decoration: none;
+    color: white;
+}
+.footerm .onem  a i{
+    background: #3da060;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.footerm .onem h1{
+    font-size: 18px;
+}
